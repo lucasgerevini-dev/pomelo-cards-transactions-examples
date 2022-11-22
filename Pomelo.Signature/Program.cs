@@ -179,7 +179,7 @@ string GetApiSecret(string apiKey)
 {
     // Change to search in settings
     var keys = new Dictionary<string, string>{
-        {"sKQq91g4ctRkLElI86vMeRNIPbhUc2qyEWxgbt6CGP8=","hByKl5U+zzpMibm7MiEnjEsnBHC4ntATnEhjzKRw2fw="}
+        {"sKQq91g4ctRkLElI86vMeRNIPbhUc2qyEWxgbt6CGP8=", "hByKl5U+zzpMibm7MiEnjEsnBHC4ntATnEhjzKRw2fw="}
     };
 
     return keys.FirstOrDefault(k => k.Key == apiKey).Value ?? string.Empty;
